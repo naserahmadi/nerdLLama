@@ -1,4 +1,4 @@
-# nerdLLama: Fine-tuning LLama2 with MultiNERD dataset
+![image](https://github.com/naserahmadi/nerdLLama/assets/45039751/4222faa4-8816-4027-950b-4de51f3c890c)# nerdLLama: Fine-tuning LLama2 with MultiNERD dataset
 
 ![1980724_1](https://github.com/naserahmadi/nerdLLama/assets/45039751/0dcae54b-eb72-438a-a85f-1ba8639c9782)
 
@@ -41,7 +41,7 @@ Here we report the performance of our model for two scenarios: `SystemA` and `Sy
 |model name | epoch | train_loss | eval_loss | inference_time (s) | precision | recall | fscore |
 |-----------------|:------:|:---------:|:---------:|:---------:|:---:|:---:|:---:|
 |nerdLLama_systemA_1|1| | | | 95.59% | 96.36% | 97.14% |
-|nerdLLama_systemA_2|2| | | | |  | |
+|nerdLLama_systemA_2|2| | | | 96.05% | 96.19% | 97.24% |
 
 
 ## SystemB results
