@@ -17,7 +17,7 @@ Will be converted into: ``  instruction: Each included ginseng . output: ginseng
 
 
 
-* `llama2_train` first creates the instructions from dataset and uses them for fine-tuning our llama2 base model. As it was mentioned before, the fine-tuning is based on `QLoar`. We use the following code to generate the fine-tuning dataset.
+* `llama2_train` first creates the instructions from dataset and uses them for fine-tuning our llama2 base model. As it was mentioned before, the fine-tuning is based on `QLora` (`15%` of the parameters are tainable). We use the following code to generate the fine-tuning dataset.
 
 ``
 def create_text_row(instruction, output):
@@ -34,5 +34,14 @@ def create_text_row(instruction, output):
 
 # The performance of the model:
 
-Here we report the performance of our model for two scenarios: `SystemA` and `SystemB`.  
+Here we report the performance of our model for two scenarios: `SystemA` and `SystemB`. In each case, we train the model for two epochs and report the performance of each checkpoint. 
+
+## SystemA results
+
+|model |epoch| train_loss | eval_loss | iference_time (seconds) | precision | recall | fscore |
+|-----------------|:------:|:---------:|:---------:|:---------:|:---:|:---:|
+|nerdLLama_systemA_1 |1| train_loss | eval_loss | iference_time | precision | recall | fscore |
+|nerdLLama_systemA_2 |2| train_loss | eval_loss | iference_time | precision | recall | fscore |
+
+
 
