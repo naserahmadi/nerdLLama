@@ -38,7 +38,7 @@ Here we report the performance of our model for two scenarios: `SystemA` and `Sy
 
 ## SystemA results
 
-|Test Environment |Language| JUnit<br/>XML | NUnit<br/>XML | XUnit<br/>XML | TRX<br/>file | JSON<br/>file | |
+|model |Language| JUnit<br/>XML | NUnit<br/>XML | XUnit<br/>XML | TRX<br/>file | JSON<br/>file | |
 |-----------------|:------:|:---------:|:---------:|:---------:|:---:|:---:|:---:|
 |[Dart](https://github.com/dart-lang/test/blob/master/pkgs/test/doc/json_reporter.md)|Dart, Flutter| | | | | :heavy_check_mark: | |
 
