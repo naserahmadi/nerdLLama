@@ -34,7 +34,7 @@ def create_text_row(instruction, output):
 
 # The performance of the model:
 
-Here we report the performance of our model for two scenarios: `SystemA` and `SystemB`. In each case, we train the model for two epochs and report the performance of each checkpoint. 
+Here we report the performance of our model for two scenarios: `SystemA` and `SystemB`. In each case, we train the model for two epochs and report the performance of each checkpoint. For exach example I calcualted `precision`, `recall`, and `fscore` and the reported numbers here are the average of those scores.
 
 ## SystemA results
 
