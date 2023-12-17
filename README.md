@@ -6,5 +6,7 @@
 
 I Fine-tuned LLama2 using `QLora` for all linear attention layers as target modlues (lora_rank=256 and lora_alpha=256).
 
-# The repository contains the following notebooks:
+# How to RUN
+
+## The repository contains the following notebooks:
 * `data_preparation`
