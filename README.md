@@ -40,7 +40,7 @@ Here we report the performance of our model for two scenarios: `SystemA` and `Sy
 
 |model name | epoch | train_loss | eval_loss | inference_time (s) | precision | recall | fscore |
 |-----------------|:------:|:---------:|:---------:|:---------:|:---:|:---:|:---:|
-|[Dart](https://github.com/dart-lang/test/blob/master/pkgs/test/doc/json_reporter.md)|Dart, Flutter| | | | | :heavy_check_mark: | |
+|nerdLLama_systemA_1|1| | | | |  | |
 
 
 |model |epoch|train_loss  eval_loss | iference_time (seconds) | precision | recall | fscore |
