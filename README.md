@@ -13,9 +13,7 @@ I Fine-tuned LLama2 using `QLora` for all linear attention layers as target modl
 
   ``  {"tokens": ["Each", "included", "ginseng", "."], "ner_tags": [0, 0, 25, 0], "lang": "en"} ``
 
-Will be converted as:
-
-``  Each included ginseng . ginseng:B-PLANT ``
+Will be converted into: ``  Each included ginseng . ginseng:B-PLANT ``
 
 
 
