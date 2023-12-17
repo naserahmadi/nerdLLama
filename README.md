@@ -40,13 +40,13 @@ Here we report the performance of our model for two scenarios: `SystemA` and `Sy
 
 |model name | epoch | train_loss | eval_loss | inference_time (s) | precision | recall | fscore |
 |-----------------|:------:|:---------:|:---------:|:---------:|:---:|:---:|:---:|
-|nerdLLama_systemA_1|1| | | | |  | |
+|nerdLLama_systemA_1|1| | | | [95.59%] | [96.36%] | [97.14%] !
 |nerdLLama_systemA_2|2| | | | |  | |
 
 
 ## SystemB results
 
-|model name | epoch | train_loss | eval_loss | inference_time (s) | precision | recall | fscore |
+|model name | epoch | train_loss | eval_loss | eval_time_per_steps (s) | precision | recall | fscore |
 |-----------------|:------:|:---------:|:---------:|:---------:|:---:|:---:|:---:|
-|nerdLLama_systemB_1|1| | | | |  | |
-|nerdLLama_systemB_2|2| | | | |  | |
+|nerdLLama_systemB_1|1| 1.1177 | 1.105619192123413 | 8.527 | |  | |
+|nerdLLama_systemB_2|2| 0.8606 | 1.188624143600463 | 8.493 | |  | |
